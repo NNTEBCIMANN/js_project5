@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foodie</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html"><h1>foodie.</h1></a>
+      <nav>
+        <a href="../index.html"> Home </a
+        ><a href="explore.html" id="hActive"> Explore </a
+        ><a href="assistant.html"> AI Asistent </a>
+      </nav>
+      <div><button>Log In</button><button>Share A Recipe</button></div>
+    </header>
+    <main id="recipe">
+      <section id="links">
+        <a href="explore.html">Explore / </a><a href="#"> Vegetarian / </a
+        ><a href=""> Lemon ricotta pasta</a>
+      </section>
+      <section id="desc">
+        <p>SIMPLE INGREDIENTS, SOMETHING SPECIAL</p>
+        <h2>Lemon ricotta pasta</h2>
+        <p>
+          Creamy, bright and ready in 25 minutes. Your new favorite way to bring
+          a little sunshine to the dinner table.
+        </p>
+        <div class="flex">
+          <div>
+            <img src="../images/Portrait photo.png" alt="" />
+            <h3>Emma Wilson</h3>
+            <p>· 4.9 (48 reviews)</p>
+          </div>
+          <div>
+            <button>♡ Save recipe</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </section>
+      <img src="../images/PastaPhotoBig.png" alt="" />
+      <section id="info">
+        <div>
+          <p>TOTAL TIME</p>
+          <h4>25 minutes</h4>
+        </div>
+        <div>
+          <p>PREP / COOK</p>
+          <h4>10 / 15 min</h4>
+        </div>
+        <div>
+          <p>DIFFICULTY</p>
+          <h4>Easy</h4>
+        </div>
+        <div>
+          <p>SERVINGS</p>
+          <h4>4 people</h4>
+        </div>
+      </section>
+      <section id="details" class="flex">
+        <div id="ingredients">
+          <h2>Ingredients</h2>
+          <p>For 4 Servings</p>
+          <div class="chk">
+            <input type="checkbox" name="rigatoni" id="rigatoni" />
+            <label for="rigatoni">400 g rigatoni pasta</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="ricotta" id="ricotta" />
+            <label for="ricotta">250 g ricotta</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="lemon" id="lemon" />
+            <label for="lemon">1 lemon, zest and juice</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="spinach" id="spinach" />
+            <label for="spinach">100 g baby spinach</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="peas" id="peas" />
+            <label for="peas">100 g frozen peas</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="Parmesan" id="Parmesan" />
+            <label for="Parmesan">40 g grated Parmesan</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="oil" id="oil" />
+            <label for="oil">2 tbsp olive oil</label>
+          </div>
+          <div class="chk">
+            <input type="checkbox" name="Salt" id="Salt" />
+            <label for="Salt">Salt, pepper & fresh basil</label>
+          </div>
+          <div id="tip">
+            <h3>A little tip</h3>
+            <p>Save a mug of pasta water. It’s the secret to a silky sauce.</p>
+          </div>
+        </div>
+        <div id="cookOrder">
+          <h2>Let’s make it</h2>
+          <ol>
+            <li>
+              <div>
+                <h3>Get the pasta going</h3>
+                <p>
+                  Bring a large pot of salted water to a boil. Cook the rigatoni
+                  according to the package directions. Add the peas for the
+                  final 2 minutes. Reserve 250 ml of pasta water, then drain.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Make the lemon ricotta sauce</h3>
+                <p>
+                  In a large bowl, whisk together the ricotta, lemon zest, lemon
+                  juice, olive oil and Parmesan. Season with salt and plenty of
+                  black pepper.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Bring it all together</h3>
+                <p>
+                  Add the hot pasta, peas and spinach to the sauce. Toss gently,
+                  adding the reserved pasta water a little at a time until
+                  silky. The heat will wilt the spinach.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Finish and enjoy</h3>
+                <p>
+                  Divide between warm bowls. Top with fresh basil, extra
+                  Parmesan and a little more lemon zest. Serve straight away.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <form action="">
+        <h2>Around the table</h2>
+        <p>Made it? Share a tip, a twist, or a little love.</p>
+        <textarea
+          name="textarea"
+          placeholder="How did it turn out in your kitchen?"
+        ></textarea>
+        <button>Post Comment</button>
+        <div>
+          <img src="../images/Portrait photo.png" alt="" />
+          <div>
+            <h3>Emma Wilson · 2 days ago</h3>
+            <p>
+              I love adding extra lemon zest at the end. If your sauce feels
+              thick, another splash of pasta water works wonders!
+            </p>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div>
+        <div id="name">
+          <a href="../index.html"><h1>foodie.</h1></a>
+          <p>Good food tastes even better when it’s shared.</p>
+        </div>
+        <nav>
+          <a href="explore.html"> Explore </a><a href="#"> About Us </a
+          ><a href="#"> Community </a>
+        </nav>
+      </div>
+      <div id="copy">
+        <p>&copy; 2026 Foodie. Made with a little love.</p>
+        <div>
+          <a href="#">Privacy policy</a>
+          <div id="dot"></div>
+          <a href="#">Terms of use</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
