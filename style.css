@@ -66,12 +66,18 @@ header button {
   background-color: transparent;
   color: rgba(82, 107, 79, 1);
 }
+header button a {
+  color: rgba(82, 107, 79, 1);
+}
 header button:last-child,
 #index #explore {
-  background-color: rgba(82, 107, 79, 1);
   color: #fff;
+  background-color: rgba(82, 107, 79, 1);
   border-radius: 10px;
   padding: 14px 24px;
+}
+header button:last-child a {
+  color: #fff;
 }
 #hActive {
   color: rgba(82, 107, 79, 1);
@@ -673,6 +679,47 @@ header button:last-child,
   font-family: SR;
   font-size: 15px;
   color: rgba(110, 114, 104, 1);
+}
+
+/* 
+                              logIn.html
+*/
+
+#logIn {
+  padding: 48px 80px 64px;
+  background-color: rgba(250, 249, 246, 1);
+}
+#logIn article {
+  display: flex;
+  gap: 96px;
+}
+#logIn #imgTxt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#logIn #imgTxt h2 {
+  font-family: Lora;
+  font-size: 40px;
+  color: rgba(37, 40, 32, 1);
+  font-weight: 400;
+  width: 390px;
+}
+#logIn #imgTxt p {
+  font-family: SR;
+  font-size: 16px;
+  color: rgba(110, 114, 104, 1);
+}
+#logIn #welcome {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#logIn #welcome #good {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* 

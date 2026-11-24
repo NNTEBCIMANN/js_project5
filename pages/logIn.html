@@ -13,9 +13,57 @@
         <a href="../index.html"> Home </a><a href="explore.html"> Explore </a
         ><a href="assistant.html"> AI Asistent </a>
       </nav>
-      <div><button>Log In</button><button>Share A Recipe</button></div>
+      <div>
+        <button><a href="pages/logIn.html">Log In</a></button>
+        <button><a href="pages/addR.html">Share A Recipe</a></button>
+      </div>
     </header>
-    <main></main>
+    <main id="logIn">
+      <article>
+        <section id="imgTxt">
+          <img src="../images/loginImg.png" alt="" />
+          <h2>There’s always room for one more.</h2>
+          <p>Find your people. Share your favorites. Make something good.</p>
+        </section>
+        <section id="welcome">
+          <div id="good">
+            <p>GOOD TO SEE YOU AGAIN</p>
+            <h2>Welcome back.</h2>
+            <p>Your saved recipes and next great meal are waiting.</p>
+          </div>
+          <div>
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="you@example.com"
+            />
+          </div>
+          <div>
+            <label for="pass">Password</label>
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div>
+            <div>
+              <input type="checkbox" name="chb" id="chb" />
+              <label for="chb">Remember me</label>
+            </div>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button>Log In</button>
+          <div>
+            <p>New to Foodie?</p>
+            <a href="register.html">Create an account</a>
+          </div>
+        </section>
+      </article>
+    </main>
     <footer>
       <div>
         <div id="name">
