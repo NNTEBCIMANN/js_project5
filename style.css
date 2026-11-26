@@ -715,11 +715,93 @@ header button:last-child a {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 480px;
 }
 #logIn #welcome #good {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+#logIn #welcome #good p:nth-child(1) {
+  color: rgba(82, 107, 79, 1);
+  font-family: SB;
+  font-size: 12px;
+}
+#logIn #welcome #good h2 {
+  font-family: Lora;
+  font-size: 40px;
+  color: rgba(37, 40, 32, 1);
+  font-weight: 400;
+}
+#logIn #welcome #good p:last-child {
+  font-family: SR;
+  font-size: 16px;
+  color: rgba(110, 114, 104, 1);
+}
+#logIn #welcome #mail,
+#logIn #welcome #pass {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#logIn #welcome #mail label,
+#logIn #welcome #pass label {
+  font-family: SM;
+  font-size: 14px;
+  color: rgba(37, 40, 32, 1);
+}
+#logIn #welcome #mail input,
+#logIn #welcome #pass input {
+  padding: 15px 16px;
+  border: 1px solid rgba(220, 223, 213, 1);
+  border-radius: 10px;
+}
+#logIn #welcome #mail input::placeholder,
+#logIn #welcome #pass input::placeholder {
+  font-family: SR;
+  font-size: 15px;
+}
+#logIn #welcome #chk {
+  align-items: center;
+}
+#logIn #welcome #chk label {
+  font-family: SR;
+  font-size: 13px;
+  color: rgba(110, 114, 104, 1);
+}
+#logIn #welcome #chk a {
+  font-family: SSB;
+  font-size: 13px;
+  color: rgba(82, 107, 79, 1);
+}
+#logIn #welcome #chk input {
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(220, 223, 213, 1);
+  border-radius: 4px;
+}
+#logIn #welcome button {
+  padding: 14px;
+  background-color: rgba(82, 107, 79, 1);
+  color: #fff;
+  font-family: SSB;
+  font-size: 15px;
+  border-radius: 10px;
+}
+#logIn #welcome #newTo {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+#logIn #welcome #newTo p {
+  font-family: SR;
+  font-size: 14px;
+  color: rgba(110, 114, 104, 1);
+}
+#logIn #welcome #newTo a {
+  font-family: SSB;
+  font-size: 14px;
+  color: rgba(82, 107, 79, 1);
 }
 
 /* 

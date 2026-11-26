@@ -14,8 +14,8 @@
         ><a href="assistant.html"> AI Asistent </a>
       </nav>
       <div>
-        <button><a href="pages/logIn.html">Log In</a></button>
-        <button><a href="pages/addR.html">Share A Recipe</a></button>
+        <button><a href="logIn.html">Log In</a></button>
+        <button><a href="addR.html">Share A Recipe</a></button>
       </div>
     </header>
     <main id="logIn">
@@ -31,7 +31,7 @@
             <h2>Welcome back.</h2>
             <p>Your saved recipes and next great meal are waiting.</p>
           </div>
-          <div>
+          <div id="mail">
             <label for="email">Email address</label>
             <input
               type="email"
@@ -40,7 +40,7 @@
               placeholder="you@example.com"
             />
           </div>
-          <div>
+          <div id="pass">
             <label for="pass">Password</label>
             <input
               type="password"
@@ -49,7 +49,7 @@
               placeholder="Enter your password"
             />
           </div>
-          <div>
+          <div class="flex" id="chk">
             <div>
               <input type="checkbox" name="chb" id="chb" />
               <label for="chb">Remember me</label>
@@ -57,7 +57,7 @@
             <a href="#">Forgot password?</a>
           </div>
           <button>Log In</button>
-          <div>
+          <div id="newTo">
             <p>New to Foodie?</p>
             <a href="register.html">Create an account</a>
           </div>
